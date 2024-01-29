@@ -73,3 +73,27 @@ function log(message: string | number): void{
     console.log(message);
 }
 
+
+//Interfaces
+interface UserInterface {
+    readonly id: number,
+    name: string,
+    age?: number, //optional
+}
+const user2:UserInterface = {
+    id: 1,
+    name: 'John',
+    age: 30,
+}
+const user3:UserInterface = {  
+    id: 1,
+    name: 'John',
+}
+
+
+//Interface with functions
+interface MathFunc {
+    (x:number,y:number): number,
+}
+const add: MathFunc = (x:number,y:number): number => x+y;
+

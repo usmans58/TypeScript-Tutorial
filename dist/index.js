@@ -53,3 +53,16 @@ function addNum(x, y) {
     return x + y;
 }
 console.log(addNum(1, 2));
+function log(message) {
+    console.log(message);
+}
+const user2 = {
+    id: 1,
+    name: 'John',
+    age: 30,
+};
+const user3 = {
+    id: 1,
+    name: 'John',
+};
+const add = (x, y) => x + y;

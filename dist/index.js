@@ -38,3 +38,13 @@ var Direction2;
     Direction2["Left"] = "Left";
     Direction2["Right"] = "Right";
 })(Direction2 || (Direction2 = {}));
+const user1 = {
+    id: 1,
+    name: 'John',
+};
+console.log(user1);
+//Type Assertion (casting)
+let cid = 1;
+//let customerId = <number>cid;
+let customerId = cid;
+customerId = true;

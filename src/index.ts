@@ -52,3 +52,14 @@ const user1: User = {
     id: 1,
     name: 'John',
 }
+console.log(user1);
+
+
+//Type Assertion (casting)
+let cid: any = 1;
+//let customerId = <number>cid;
+let customerId = cid as boolean;
+customerId = true;
+
+
+

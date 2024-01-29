@@ -85,3 +85,12 @@ const mike = new Person(2, 'Mike Jordan');
 console.log(mike.register());
 // console.log(brad.getID());
 // console.log(brad,mike);
+//Subclasses
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(3, 'Shawn', 'Developer');
+console.log(emp.register());

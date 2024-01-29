@@ -83,5 +83,5 @@ class Person {
 const brad = new Person(1, 'Brad Traversy');
 const mike = new Person(2, 'Mike Jordan');
 console.log(mike.register());
-console.log(brad.getID());
-console.log(brad, mike);
+// console.log(brad.getID());
+// console.log(brad,mike);

@@ -22,3 +22,7 @@ employee = [
     [3,'Jill'],
 ]
 
+//Union
+let pid: string | number;
+
+

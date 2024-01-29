@@ -10,4 +10,31 @@ age = 30;
 //Arrays
 let ids = [1, 2, 3, 4, 5];
 ids.push(6);
-console.log(ids);
+let arr = [1, true, 'Hello'];
+//Tuple
+let person = [1, 'Brad', true];
+let employee;
+employee = [
+    [1, 'Brad'],
+    [2, 'John'],
+    [3, 'Jill'],
+];
+//Union
+let pid;
+pid = '22';
+//Enum
+var Direction1;
+(function (Direction1) {
+    Direction1[Direction1["Up"] = 1] = "Up";
+    Direction1[Direction1["Down"] = 2] = "Down";
+    Direction1[Direction1["Left"] = 3] = "Left";
+    Direction1[Direction1["Right"] = 4] = "Right";
+})(Direction1 || (Direction1 = {}));
+console.log(Direction1.Up);
+var Direction2;
+(function (Direction2) {
+    Direction2["Up"] = "Up";
+    Direction2["Down"] = "Down";
+    Direction2["Left"] = "Left";
+    Direction2["Right"] = "Right";
+})(Direction2 || (Direction2 = {}));
